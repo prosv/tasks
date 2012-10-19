@@ -1,7 +1,3 @@
-#ifndef MAINWINDOW_H
-#define MAINWINDOW_H
-
-#endif // MAINWINDOW_H
 #include <QtGui>
 
 class QWebView;
@@ -17,10 +13,6 @@ protected slots:
 
     void go();
     void newUrl();
-    //void finish(bool);
-
-    //void viewSource();
-    //void slotSourceDownloaded();
 
 private:
     QWebView *view;
